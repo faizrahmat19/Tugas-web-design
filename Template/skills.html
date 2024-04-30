@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #333333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            justify-content: center;
+        }
+        li {
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: left;
+        }
+        h2 {
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #666666;
+            margin-bottom: 15px;
+        }
+        .progress-bar {
+            width: 100%;
+            background-color: #e9ecef;
+            border-radius: 5px;
+            height: 20px;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+        .progress {
+            background-color: #007bff;
+            height: 100%;
+            transition: width 0.5s ease;
+        }
+    </style>
+</head>
+<body>
+    <h1>Skills</h1>
+    <ul>
+        <li>
+            <h2>HTML</h2>
+            <p>Bahasa program HTMl</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 30%;"></div>
+            </div>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <h2>CSS</h2>
+            <p>Bahasa program CSS</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 42%;"></div>
+            </div>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <h2>HTML</h2>
+            <p>Bahasa program JavaScript</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 59%;"></div>
+            </div>
+        </li>
+    </ul>
+</body>
+</html>
